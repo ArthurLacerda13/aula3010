@@ -1,6 +1,19 @@
-numero = int(input("digite um numero"))
+i = 1
 
-if numero%2 == 0:
-    print("O número que você digitou é par")
-else:
-    print("O número que você digitou é impar")
+while i > 10:
+    print(i)
+    i = i+1
+
+print("terminou")
+print(i)
+
+criancas = ["arthur", "clara", "rafael"]
+
+for item in criancas:
+    print(item)
+
+canal = "refatorando"
+for letra in canal:
+    print(letra)
+
+for index in range()
